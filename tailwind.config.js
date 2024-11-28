@@ -5,7 +5,11 @@ module.exports = {
     "./public/**/*.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'ColorDiscordFondo':'#1E2124'
+      }
+    },
   },
   plugins: [],
 };

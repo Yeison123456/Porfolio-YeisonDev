@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio - YeisonDev</title>
   <link href="/dist/output.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
   <style>
     body, html {
       margin: 0;
@@ -24,19 +25,27 @@
 		}
   </style>
 </head>
-<body class="bg-transparent">
+<body class="bg-transparent w-full h-screen 2xl:flex 2xl:flex-col 2xl:items-center">
 
-	<header class="2xl:w-full 2xl:h-32 2xl:bg-transparent 2xl:flex 2xl:justify-end 2xl:items-center">
+	<header class="2xl:w-full 2xl:h-1/6 2xl:bg-transparent 2xl:flex 2xl:justify-end 2xl:items-center">
 		<div class="2xl:w-1/2 2xl:h-full 2xl:flex 2xl:justify-around 2xl:items-center ">
 			<a href=""><p class="text-white 2xl:font-extrabold 2xl:text-3xl 2xl:tracking-wider">Home</p></a>
 			<a href=""><p class="text-white 2xl:font-extrabold 2xl:text-3xl 2xl:tracking-wider">About me</p></a>
 			<a href=""><p class="text-white 2xl:font-extrabold 2xl:text-3xl 2xl:tracking-wider">Contact</p></a>
-			<button class="2xl:w-2/12 2xl:h-2/4 2xl:bg-white rounded-lg"><a href=""><p class="text-black 2xl:font-extrabold 2xl:text-3xl 2xl:tracking-wider">Light</p></a></button>
+			<button class="2xl:w-2/12 2xl:h-2/6 2xl:bg-white rounded-lg"><a href=""><p class="text-black 2xl:font-extrabold 2xl:text-3xl 2xl:tracking-wider">Light</p></a></button>
 		</div>
 	</header>
 
-	<main>
-		
+	<main class="2xl:w-10/12 2xl:h-3/4 2xl:flex 2xl:items-center 2xl:justify-around">
+		<div class="2xl:w-1/2 2xl:h-full flex flex-col justify-center">
+			<p class="text-9xl font-extrabold text-white leading-normal tracking-wider"  style="font-family: 'Jersey 25', sans-serif;">Hi! I´m <strong class="text-emerald-400">Yeison</strong>  <br>	And i´m <strong class="text-emerald-400">developer</strong></p>
+			<button class="bg-white w-3/12 h-24 flex justify-evenly items-center rounded-2xl"> <img src="../../public/img/iconGitHub.png" class="w-16"><a href="" class="text-black text-4xl font-semibold">GitHub</a></button>
+		</div>
+		<div class="2xl:w-2/6 2xl:h-full flex justify-end">
+			<div class="2xl:w-4/5 2xl:h-full 2xl:bg-ColorDiscordFondo rounded-3xl">
+				<section class="2xl:w-full 2xl:h-1/5 bg-center bg-cover bg-[url('../../public/img/fondoPerfil.png')] rounded-t-3xl"></section>
+			</div>
+		</div>
 	</main>
 
   <canvas></canvas>
