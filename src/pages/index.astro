@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.25">
   <title>Portfolio - YeisonDev</title>
   <link href="/dist/output.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
@@ -27,25 +27,78 @@
 </head>
 <body class="bg-transparent w-full h-screen 2xl:flex 2xl:flex-col 2xl:items-center">
 
-	<header class="2xl:w-full 2xl:h-1/6 2xl:bg-transparent 2xl:flex 2xl:justify-end 2xl:items-center">
+	<header class="2xl:w-full 2xl:h-24 2xl:bg-transparent 2xl:flex 2xl:justify-end 2xl:items-center">
 		<div class="2xl:w-1/2 2xl:h-full 2xl:flex 2xl:justify-around 2xl:items-center ">
-			<a href=""><p class="text-white 2xl:font-extrabold 2xl:text-3xl 2xl:tracking-wider">Home</p></a>
-			<a href=""><p class="text-white 2xl:font-extrabold 2xl:text-3xl 2xl:tracking-wider">About me</p></a>
-			<a href=""><p class="text-white 2xl:font-extrabold 2xl:text-3xl 2xl:tracking-wider">Contact</p></a>
-			<button class="2xl:w-2/12 2xl:h-2/6 2xl:bg-white rounded-lg"><a href=""><p class="text-black 2xl:font-extrabold 2xl:text-3xl 2xl:tracking-wider">Light</p></a></button>
+			<a href=""><p class="text-white 2xl:font-extrabold 2xl:text-xl 2xl:tracking-wider">Home</p></a>
+			<a href=""><p class="text-white 2xl:font-extrabold 2xl:text-xl 2xl:tracking-wider">About me</p></a>
+			<a href=""><p class="text-white 2xl:font-extrabold 2xl:text-xl 2xl:tracking-wider">Contact</p></a>
+			<button class="2xl:w-2/12 2xl:h-2/6 2xl:bg-white rounded-lg"><a href=""><p class="text-black 2xl:font-extrabold 2xl:text-xl 2xl:tracking-wider">Light</p></a></button>
 		</div>
 	</header>
 
-	<main class="2xl:w-10/12 2xl:h-3/4 2xl:flex 2xl:items-center 2xl:justify-around">
+	<main class="2xl:w-10/12 2xl:h-5/6 2xl:flex 2xl:items-center 2xl:justify-around">
 		<div class="2xl:w-1/2 2xl:h-full flex flex-col justify-center">
-			<p class="text-9xl font-extrabold text-white leading-normal tracking-wider"  style="font-family: 'Jersey 25', sans-serif;">Hi! I´m <strong class="text-emerald-400">Yeison</strong>  <br>	And i´m <strong class="text-emerald-400">developer</strong></p>
-			<button class="bg-white w-3/12 h-24 flex justify-evenly items-center rounded-2xl"> <img src="../../public/img/iconGitHub.png" class="w-16"><a href="" class="text-black text-4xl font-semibold">GitHub</a></button>
+			<p class="text-6xl font-extrabold text-white leading-normal tracking-wider" style="font-family: 'Jersey 25', sans-serif;">Hi! I´m <strong class="text-emerald-400">Yeison</strong>  <br>	And i´m <strong class="text-emerald-400">developer</strong></p>
+			<button class="bg-white w-3/12 h-12 flex justify-evenly items-center rounded-2xl">
+				<img src="../../public/img/iconGitHub.png" loading="lazy" class="w-8">
+				<a href="" class="text-black text-2xl font-semibold">GitHub</a>
+			</button>
 		</div>
-		<div class="2xl:w-2/6 2xl:h-full flex justify-end">
-			<div class="2xl:w-4/5 2xl:h-full 2xl:bg-ColorDiscordFondo rounded-3xl">
+		<section class="2xl:w-2/6 2xl:h-full flex justify-end">
+			<div class="2xl:w-4/5 2xl:h-full 2xl:bg-ColorDiscordFondo rounded-3xl flex flex-col items-center">
 				<section class="2xl:w-full 2xl:h-1/5 bg-center bg-cover bg-[url('../../public/img/fondoPerfil.png')] rounded-t-3xl"></section>
+				<div class="2xl:w-full 2xl:h-1/6 flex justify-around items-center 2xl:-mt-2">
+					<section class="2xl:w-32 2xl:h-32 2xl:rounded-full 2xl:absolete 2xl:bg-ColorDiscordFondo 2xl:flex 2xl:justify-center 2xl:items-center  ">
+						<section class="2xl:w-28 2xl:h-28 bg-center bg-cover bg-[url('../../public/img/fotoPerfil.png')] 2xl:rounded-full"></section>
+						<section class="2xl:w-8 2xl:h-8 bg-ColorDiscordFondo 2xl:rounded-full absolute mt-20 ml-20 flex justify-center items-center">
+							<section class="2xl:w-6 2xl:h-6 bg-green-700 2xl:rounded-full"></section>
+						</section>
+					</section>
+					<section class="2xl:w-2/5 2xl:h-2/5 bg-SecondColorDiscord flex justify-evenly items-center rounded-xl">
+						<a href="" class=""><div class="2xl:w-5 2xl:h-5 bg-white rounded-full flex items-center justify-center"><img src="../../public/img/iconGitHub.png" class="2xl:w-5" loading="lazy"></div></a>
+						<a href="" class=""><img src="../../public/img/iconLinkeind.png" class="2xl:w-5" loading="lazy"></a>
+						<a href="" class=""><img src="../../public/img/iconInstagram.png" class="2xl:w-5" loading="lazy"></a>
+					</section>
+				</div>
+				<section class="2xl:w-5/6 2xl:h-1/6 2xl:flex 2xl:flex-col 2xl:justify-evenly mt-1">
+					<p class="2xl:font-extrabold  text-white 2xl:tracking-wider 2xl:text-base w-1/3 ">Yeison
+						<strong class="2xl:font-medium 2xl:text-gray-300 2xl:text-xs">@yeisondev</strong>
+					</p>
+					<div class="2xl:w-5/6 flex items-center">
+						<img src="../../public/img/iconVisualStudioCode.png" loading="lazy" class="2xl:w-6">
+						<p class="ml-2 text-white text-sm">Playing <strong>Visual Studio Code</strong></p>
+					</div>
+				</section>
+				<hr class="w-5/6 border-zinc-500 my-1">
+				<section class="2xl:w-5/6">
+					<h5 class="text-base font-bold text-white 2xl:tracking-wider mb-1">About Me</h5>
+					<div class="2xl:w-5/6 flex items-center">
+						<img src="../../public/img/stickerGumball.png" loading="lazy" class="2xl:w-6">
+						<p class="ml-2 text-white text-xs">He - 1.81 - 19 years old</p>
+					</div>
+					<ul class="list-disc ml-4 text-white w-4/5">
+						<li class="text-xs">Software engineer in process</li>
+						<li class="text-xs">I like programming, playing, eating and the anime</li>
+					</ul>
+					<h5 class="text-base font-bold text-white 2xl:tracking-wider my-2">Member Since</h5>
+					<div class="2xl:w-5/6 flex items-center">
+						<img src="../../public/img/iconComputer.png" loading="lazy" class="2xl:w-6">
+						<p class="ml-2 text-white text-xs">January 2021 - Present</p>
+					</div>
+					<h5 class="text-base font-bold text-white 2xl:tracking-wider my-2">Playing a Game</h5>
+					<div class="2xl:w-5/6 flex items-center justify-center">
+						<img src="../../public/img/iconAstro.png" loading="lazy" class="2xl:w-10 mt-2">
+						<div class="w-2/3 ml-4">
+							<p class="ml-2 text-white text-xs font-bold">Visual Studio code</p>
+							<p class="ml-2 text-white text-xs">Editing index.astro</p>
+							<p class="ml-2 text-white text-xs">at 20:39 | Filesize 8.33KB</p>
+
+						</div>
+					</div>
+				</section>
 			</div>
-		</div>
+		</section>
+
 	</main>
 
   <canvas></canvas>
@@ -83,10 +136,10 @@
 	  constructor(x, y) {
 		this.x = Math.random() * canvas.width;
 		this.y = Math.random() * canvas.height;
-		this.radio = 10;
+		this.radio = 5;
 		this.dirX = (Math.random() * 2) - 1;
 		this.dirY = (Math.random() * 2) - 1;
-		this.velocidad = 8;
+		this.velocidad = 5;
 		this.color = "rgb(43, 43, 43)"; // Color de la bola
 	  }
   
@@ -115,7 +168,7 @@
   
 	if (canvas) {
 	  let bolas = [];
-	  const cantidadBolas = 80;
+	  const cantidadBolas = 40;
   
 	  for (let i = 0; i < cantidadBolas; i++) {
 		bolas.push(new Bola(canvas.width / 2, canvas.height / 2));
@@ -131,7 +184,7 @@
 			const dy = bola2.y - bola.y;
 			const dist = Math.sqrt(dx ** 2 + dy ** 2);
   
-			if (dist < 300) {
+			if (dist < 350) {
 			  ctx.strokeStyle = bola.color;
 			  ctx.lineWidth = 2;
 			  ctx.beginPath();

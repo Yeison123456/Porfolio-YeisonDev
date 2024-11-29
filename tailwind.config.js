@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'ColorDiscordFondo':'#1E2124'
+        'ColorDiscordFondo':'#1E2124',
+        'SecondColorDiscord':'#141618'
       }
     },
   },
