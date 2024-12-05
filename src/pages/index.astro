@@ -22,7 +22,9 @@
 		width: 100vw; /* Asegura que el canvas cubra todo el ancho */
 		height: 100vh; /* Asegura que el canvas cubra toda la altura */
 		z-index: -1; /* Envía el canvas al fondo */
-		}
+	}
+
+
   </style>
 </head>
 <body class="bg-transparent w-full h-screen 2xl:flex 2xl:flex-col 2xl:items-center">
@@ -38,30 +40,30 @@
 
 	<main class="2xl:w-10/12 2xl:h-5/6 2xl:flex 2xl:items-center 2xl:justify-around">
 		<div class="2xl:w-1/2 2xl:h-full flex flex-col justify-center">
-			<p class="text-6xl font-extrabold text-white leading-normal tracking-wider" style="font-family: 'Jersey 25', sans-serif;">Hi! I´m <strong class="text-emerald-400">Yeison</strong>  <br>	And i´m <strong class="text-emerald-400">developer</strong></p>
-			<button class="bg-white w-3/12 h-12 flex justify-evenly items-center rounded-2xl">
-				<img src="../../public/img/iconGitHub.png" loading="lazy" class="w-8">
-				<a href="" class="text-black text-2xl font-semibold">GitHub</a>
+			<p class="text-6xl font-extrabold text-white leading-normal tracking-wider" style="font-family: 'Jersey 25', sans-serif;">Hi! I´m <strong class="text-emerald-400">Yeison</strong>  <br>	And i´m <strong class="text-emerald-400 animated-text">developer</strong></p>
+			<button role="link" onclick="window.location='https://github.com/Yeison123456'" class="bg-white w-3/12 h-12 flex justify-evenly items-center rounded-2xl">
+				<img src="../../public/img/iconGitHub.png" loading="lazy" class="w-8" alt="iconGitHub">
+				<a class="text-black text-xl font-bold">GitHub</a>
 			</button>
 		</div>
 		<section class="2xl:w-2/6 2xl:h-full flex justify-end">
 			<div class="2xl:w-4/5 2xl:h-full 2xl:bg-ColorDiscordFondo rounded-3xl flex flex-col items-center">
 				<section class="2xl:w-full 2xl:h-1/5 bg-center bg-cover bg-[url('../../public/img/fondoPerfil.png')] rounded-t-3xl"></section>
-				<div class="2xl:w-full 2xl:h-1/6 flex justify-around items-center 2xl:-mt-2">
-					<section class="2xl:w-32 2xl:h-32 2xl:rounded-full 2xl:absolete 2xl:bg-ColorDiscordFondo 2xl:flex 2xl:justify-center 2xl:items-center  ">
-						<section class="2xl:w-28 2xl:h-28 bg-center bg-cover bg-[url('../../public/img/fotoPerfil.png')] 2xl:rounded-full"></section>
-						<section class="2xl:w-8 2xl:h-8 bg-ColorDiscordFondo 2xl:rounded-full absolute mt-20 ml-20 flex justify-center items-center">
-							<section class="2xl:w-6 2xl:h-6 bg-green-700 2xl:rounded-full"></section>
+				<div class="2xl:w-full 2xl:h-1/6 flex justify-around items-center 2xl:-mt-4">
+					<section class="2xl:w-28 2xl:h-28 2xl:rounded-full 2xl:absolete 2xl:bg-ColorDiscordFondo 2xl:flex 2xl:justify-center 2xl:items-center  ">
+						<section class="2xl:w-24 2xl:h-24 bg-center bg-cover bg-[url('../../public/img/fotoPerfil.png')] 2xl:rounded-full"></section>
+						<section class="2xl:w-7 2xl:h-7 bg-ColorDiscordFondo 2xl:rounded-full absolute mt-20 ml-16 flex justify-center items-center">
+							<section class="2xl:w-5 2xl:h-5 bg-green-700 2xl:rounded-full"></section>
 						</section>
 					</section>
 					<section class="2xl:w-2/5 2xl:h-2/5 bg-SecondColorDiscord flex justify-evenly items-center rounded-xl">
-						<a href="" class=""><div class="2xl:w-5 2xl:h-5 bg-white rounded-full flex items-center justify-center"><img src="../../public/img/iconGitHub.png" class="2xl:w-5" loading="lazy"></div></a>
-						<a href="" class=""><img src="../../public/img/iconLinkeind.png" class="2xl:w-5" loading="lazy"></a>
-						<a href="" class=""><img src="../../public/img/iconInstagram.png" class="2xl:w-5" loading="lazy"></a>
+						<a href="https://github.com/Yeison123456" class=""><div class="2xl:w-5 2xl:h-5 bg-white rounded-full flex items-center justify-center"><img src="../../public/img/iconGitHub.png" class="2xl:w-5" loading="lazy"></div></a>
+						<a href="https://www.linkedin.com/in/yeison-david-rodr%C3%ADguez-rodriguez-ydrr/" class=""><img src="../../public/img/iconLinkeind.png" class="2xl:w-5" loading="lazy"></a>
+						<a href="https://www.instagram.com/otro_wey1/" class=""><img src="../../public/img/iconInstagram.png" class="2xl:w-5" loading="lazy"></a>
 					</section>
 				</div>
 				<section class="2xl:w-5/6 2xl:h-1/6 2xl:flex 2xl:flex-col 2xl:justify-evenly mt-1">
-					<p class="2xl:font-extrabold  text-white 2xl:tracking-wider 2xl:text-base w-1/3 ">Yeison
+					<p class="2xl:font-extrabold text-white 2xl:tracking-wider 2xl:text-base w-1/3 ">Yeison
 						<strong class="2xl:font-medium 2xl:text-gray-300 2xl:text-xs">@yeisondev</strong>
 					</p>
 					<div class="2xl:w-5/6 flex items-center">
@@ -80,11 +82,7 @@
 						<li class="text-xs">Software engineer in process</li>
 						<li class="text-xs">I like programming, playing, eating and the anime</li>
 					</ul>
-					<h5 class="text-base font-bold text-white 2xl:tracking-wider my-2">Member Since</h5>
-					<div class="2xl:w-5/6 flex items-center">
-						<img src="../../public/img/iconComputer.png" loading="lazy" class="2xl:w-6">
-						<p class="ml-2 text-white text-xs">January 2021 - Present</p>
-					</div>
+					
 					<h5 class="text-base font-bold text-white 2xl:tracking-wider my-2">Playing a Game</h5>
 					<div class="2xl:w-5/6 flex items-center justify-center">
 						<img src="../../public/img/iconAstro.png" loading="lazy" class="2xl:w-10 mt-2">
@@ -92,13 +90,16 @@
 							<p class="ml-2 text-white text-xs font-bold">Visual Studio code</p>
 							<p class="ml-2 text-white text-xs">Editing index.astro</p>
 							<p class="ml-2 text-white text-xs">at 20:39 | Filesize 8.33KB</p>
-
 						</div>
+					</div>
+					<h5 class="text-base font-bold text-white 2xl:tracking-wider my-1">Member Since</h5>
+					<div class="2xl:w-5/6 flex items-center">
+						<img src="../../public/img/iconComputer.png" loading="lazy" class="2xl:w-6">
+						<p class="ml-2 text-white text-xs">January 2021 - Present</p>
 					</div>
 				</section>
 			</div>
 		</section>
-
 	</main>
 
   <canvas></canvas>
@@ -236,6 +237,50 @@
   
 	  animar();
 	}
+
+
+	// Animation text
+	const textElement = document.querySelector('.animated-text');
+    const words = ["developer", "gamer", "an athlete"]; // Lista de palabras
+    let currentWordIndex = 0;
+
+    function deleteText() {
+      const currentWord = words[currentWordIndex];
+      let index = currentWord.length;
+
+      function erase() {
+        if (index > 0) {
+          textElement.textContent = currentWord.slice(0, index);
+          index--;
+          setTimeout(erase, 100);
+        } else {
+          typeText();
+        }
+      }
+      erase();
+    }
+
+    function typeText() {
+      const nextWordIndex = (currentWordIndex + 1) % words.length; // Índice siguiente palabra
+      const nextWord = words[nextWordIndex];
+      let newIndex = 0;
+
+      function type() {
+        if (newIndex <= nextWord.length) {
+          textElement.textContent = nextWord.slice(0, newIndex);
+          newIndex++;
+          setTimeout(type, 150);
+        } else {
+          currentWordIndex = nextWordIndex; // Actualiza al siguiente índice
+          setTimeout(deleteText, 1000); // Pausa antes de borrar
+        }
+      }
+      type();
+    }
+
+    // Inicia la animación
+    setTimeout(deleteText, 1000);
+
 </script>
   
 </html>
